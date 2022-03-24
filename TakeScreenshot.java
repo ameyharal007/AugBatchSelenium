@@ -28,6 +28,7 @@ public class TakeScreenshot {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Thread.sleep(5000);
 		
+		//This is random line
 		
 		TakesScreenshot Scr=(TakesScreenshot) driver;
 		File ScrFile=Scr.getScreenshotAs(OutputType.FILE);
